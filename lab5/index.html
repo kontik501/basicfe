@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ІА-01, Телегін</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="section-form">
+        <div class="border">
+            <h3 class="form-text">Enter your data</h3>
+            <form class="valid-form">
+                <div class="field">
+                    <label for="name">ПІБ</label>
+                    <div class="input-field">
+                        <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                placeholder="ТТТТТТ Т.Т."
+                        />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="group">Група</label>
+                    <div class="input-field">
+                        <input type="text" name="group" id="group" placeholder="ЧЧ" />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="phone">Телефон</label>
+                    <div class="input-field">
+                        <input
+                                type="tel"
+                                name="phone"
+                                id="phone"
+                                placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ"
+                        />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="card">ID-card</label>
+                    <div class="input-field">
+                        <input
+                                type="text"
+                                name="card"
+                                id="card"
+                                placeholder="ТТ №ЧЧЧЧЧЧ"
+                        />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="faculty">Факультет</label>
+                    <div class="input-field">
+                        <input
+                                type="text"
+                                name="faculty"
+                                id="faculty"
+                                placeholder="ТТТТ"
+                        />
+                    </div>
+                </div>
+                <input type="submit" class="form-btn" value="Submit" />
+            </form>
+        </div>
+    </div>
+    <div class="info" style="display: hidden"></div>
+</div>
+<script src="task1.js"></script>
+</body>
+</html>

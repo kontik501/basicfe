@@ -1,0 +1,47 @@
+.content {
+    table-layout: fixed;
+    width: 500px;
+    height: 100px;
+}
+
+.field {
+    background-color: #cc0001;
+    border: 1px solid black;
+    width: 210px;
+    height: 210px;
+}
+.rect {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.horizontal {
+    width: 105px;
+    height: 42px;
+}
+
+.vertical {
+    width: 42px;
+    height: 105px;
+}
+
+.position .horizontal {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+}
+
+.position .vertical {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+}
+
+.transform .horizontal {
+    transform: translate(50%, 200%);
+}
+.transform .vertical {
+    transform: translate(200%, 10%);
+}
